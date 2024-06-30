@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://sellerperformance:sellerpassword@acms-project-wgmfk.mongodb.net/test?retryWrites=true&w=majority"
+}

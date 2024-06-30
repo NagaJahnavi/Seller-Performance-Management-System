@@ -1,0 +1,31 @@
+{
+  "name": "sellerperformancesystem",
+  "version": "1.0.0",
+  "description": "This application can be used to monitor the seller performance",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "views": "npm start views --prefix views",
+    "dev": "concurrently \"npm run server\" \"npm run views\""
+  },
+  "author": "Sahana,Jahnavi,Akhila,Swathi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.4.0",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "deep-diff": "^1.0.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^5.9.10",
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "pm2": "^4.4.0",
+    "validator": "^13.0.0"
+  }
+}
